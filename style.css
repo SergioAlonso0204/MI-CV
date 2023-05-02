@@ -1,0 +1,54 @@
+*{
+    margin: 5px;
+    padding: 3px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar a:hover   {
+    background-color: black;
+    
+}
+
+
+header{
+    background-color: blue;
+
+}
+
+.Profile-image{
+    border-radius: 7px;
+    background-color: blue;
+}
+
+ul,ol {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  
+  ul.contact li {
+    padding-left: 2rem;
+    background-image: url(img/star.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  }
+
+  ul.skills li {
+    padding-left: 2rem;
+    background-image: url(img/skills.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  }
+
+  ol.studies li {
+    padding-left: 2rem;
+    background-image: url(img/studie.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  }
